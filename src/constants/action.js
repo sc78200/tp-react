@@ -1,2 +1,2 @@
-export const ADD_MESSAGE_ACTION = "joliApp/ADD_MESSAGE";
-export const REMOVE_MESSAGE_ACTION = "joliApp/REMOVE_MESSAGE";
+export const ADD_MESSAGE_ACTION = "tp-react/ADD_MESSAGE";
+export const REMOVE_MESSAGE_ACTION = "tp-react/REMOVE_MESSAGE";
