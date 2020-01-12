@@ -15,7 +15,7 @@ const Routes = () => {
         </span>
         {nbAccount !== 0 && (
           <span>
-            <Link to="/World Chatbox">World Chatbox</Link>
+            <Link to="/World_Chatbox">World Chatbox</Link>
           </span>
         )}
       </nav>
