@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
-import { render } from "react-dom";
+//import Movies from "./exo-api/getMovies";
+import { createStore, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
-import { createStore } from "redux";
-import reducers from "./reducers/message";
-import Chat from "./components/Chat";
+import allReducers from "./reducers";
 import "./App.css";
 import logger from "./service/middleware";
 import Route from "./router/route";
 
-let store = createStore(reducers);
+//console.log(Movies);
+
+const store = createStore(allReducers, applyMiddleware(logger));
 
 function App() {
   return (
